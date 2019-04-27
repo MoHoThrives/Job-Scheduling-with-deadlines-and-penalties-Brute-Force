@@ -37,7 +37,7 @@ public class JobConfiguration implements Comparable<JobConfiguration> {
 	public String toString() {
 		String result = "Job ordering: ";
 		for(Job j: orderOfJobs) {
-			result += j.jobID;
+			result += j.jobID + ",";
 		}
 		result += "\nPenalty:" + totalPenalty;
 		return result;
