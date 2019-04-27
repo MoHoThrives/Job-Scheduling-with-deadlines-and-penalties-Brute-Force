@@ -1,0 +1,20 @@
+Classes: Main, Job, JobConfiguration(extends Comparable)
+
+Main:Lists the main procedures that are supposed to be done to get to the final answer.
+
+
+1. Get the jobs, its time, penalty, and deadline. Put the jobs in an array; Job jobs[numJobs]. Assign each job  a letter in alphabetical order.
+
+2. Have an array, String permutations[factorial(numJobs)] to store the permutations you will walk through.
+
+3. For every permutation, create an instance of JobConfiguration, with the instance JobConfiguration(Job[], String permutation)
+
+4. Loop through all the job configurations and keep track of the value with the lowest penalty
+
+5. Output to console the final Job Configuration.
+
+
+
+Job: A class to store the time, penalty, and deadline of the Jobs.
+
+JobConfiguration: Makes a job configuration from the order of jobs given. Instantiated with the String of the Configuration, and the array of jobs. Gets a value for the total penalty; know how to calculate that. Make sure you have a calculatePenalty and a compareTo method.
