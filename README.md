@@ -1,4 +1,4 @@
-# Job-Scheduling-with-deadlines-and-penalties-Brute-Force
+# Job Scheduling with deadlines and penalties - Brute Force
 Using Brute Force Algorithm to find the best order of jobs with the least penalty.
 
 **Input**
